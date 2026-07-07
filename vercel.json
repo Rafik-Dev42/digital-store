@@ -1,5 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/api/(.*)", "destination": "/api/router.ts" }
-    ]
-  }
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
